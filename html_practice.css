@@ -3,15 +3,54 @@
     line-height: 1.5em;
 
 }
-
-#active{
+a{
+    font-size: 1.5em;
+    color: white;
+    /* padding:1em; */
+    padding: 10px;
+}
+a:hover{
     background-color: white;
     color: steelblue;
 }
+#active{
+    background-color: steelblue;
+    color: white;
+}
+#visited{
+    background-color: steelblue;
+    color: purple
+}
+nav, footer{
+    background-color: steelblue;
+    width: 100%;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
 img{
-    width: 10%
+    width: 80%;
+    display: block;
+    margin: 0 auto;
 }
 
 p{
-    width: 25%
+    width: 80%
+}
+
+body{
+    text-align: center;
+}
+h1{
+    text-align: center;
+}
+main p{
+    width: 80%;
+    margin: 0px auto;
+    text-align: center;
+}
+footer p{
+    font-size: 20px;
+    margin: 20px auto;
+    text-align: center;
 }

@@ -1,0 +1,99 @@
+#content{
+    max-width: 1600px;
+    margin: 0 auto;  /*The 0 sets the top and bottom margin and "auto" sets the left and right margins */
+}
+header{
+    background-color: #f5dfbb;
+}
+
+/*Navigation Tab*/
+nav a{
+    text-align: center;
+    color:#512a2a;
+    text-decoration: none;
+}
+nav a:hover{
+    background-color: #512a2a;
+    color: white;
+    text-decoration: none;
+}
+/*\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\*/
+/*//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+/*Images  */
+.logo{
+    width: 80px;
+}
+.icon{
+    width:80px;
+}
+#hero_img{
+    width: 100%;
+}
+/*\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\*/
+/*//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+#hero_msg h1, #hero_msg h4{
+    text-align: center;
+}
+.button_box{
+    text-align: center;
+}
+main section{
+    text-align: center;
+}
+body{
+    background-color: #127475;
+}
+.home_title{
+    color: wheat;
+}
+h4{
+    color: wheat;    
+}
+.book, .join{
+    background-color: #512a2a;
+    color: #127475;
+    text-decoration: none;
+}
+.book:hover, .join:hover{
+    background-color: #512a2a;
+    color: #f5dfbb;
+    text-decoration: none;
+}
+#background{
+    height: 725px;
+    background-color: #f5dfbb;
+}
+.msg{
+    background-color:#127475;
+}
+.msg h2{
+    color: wheat;
+}
+.msg p{
+    color: black;
+}
+/* Footer Tab*/
+footer{
+    background-color: #f2542dbd;
+    color: wheat;
+}
+footer a{
+    color: wheat;
+    text-decoration: none;
+}
+footer p a:hover{
+    color: blue;
+    text-decoration: underline;
+}
+footer p{
+    font-size: 1.2em;
+}
+
+
+/*        <td class="primary">#512a2a</td> muddy brown
+        <td class="secondary">#f2542d</td> burnt orange
+        <td class="accent1">#f5dfbb</td> tan or cream
+        <td class="accent2">#127475</td> dark teal
+        /*

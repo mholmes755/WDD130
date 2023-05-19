@@ -1,37 +1,43 @@
 .main-para{
     font-size: 1.5em;
     line-height: 1.5em;
-
 }
+
 a{
     font-size: 1.5em;
     color: white;
     /* padding:1em; */
-    padding: 10px;
+    padding: 25px;
 }
+
 a:hover{
     background-color: white;
     color: steelblue;
 }
+
 #active{
     background-color: steelblue;
     color: white;
 }
+
 #visited{
     background-color: steelblue;
     color: purple
 }
-nav, footer{
+
+nav{
     background-color: steelblue;
     width: 100%;
     color: white;
-    padding: 10px;
+    padding: 25px;
     text-align: center;
 }
+
 img{
     width: 80%;
     display: block;
     margin: 0 auto;
+    border: 4px sold steelblue;
 }
 
 p{
@@ -40,17 +46,30 @@ p{
 
 body{
     text-align: center;
+    margin: 0px;
 }
+
 h1{
-    text-align: center;
+    margin: 100px, 0;
+    color: blueviolet;
 }
+
 main p{
     width: 80%;
     margin: 0px auto;
     text-align: center;
+    color: blue;
 }
+
+
 footer p{
     font-size: 20px;
     margin: 20px auto;
     text-align: center;
+    padding: 25px;
+}
+
+footer{
+    background-color: steelblue;
+    color: white
 }

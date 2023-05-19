@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&family=Ubuntu:wght@700&display=swap');
 #content{
     max-width: 1600px;
     margin: 0 auto;  /*The 0 sets the top and bottom margin and "auto" sets the left and right margins */
@@ -11,6 +12,7 @@ nav a{
     text-align: center;
     color:#512a2a;
     text-decoration: none;
+    padding: 5px;
 }
 nav a:hover{
     background-color: #512a2a;
@@ -23,13 +25,26 @@ nav a:hover{
 /*Images  */
 .logo{
     width: 80px;
+    padding-top: 5px;
 }
 .icon{
     width:80px;
+    padding-top: 10px;
+}
+.rivers-card, .camping-card, .rapids-card{
+    margin: 200px 0;
+}
+.card-img{
+    border: 10px solid black;
 }
 #hero_img{
     width: 100%;
 }
+/* .mountains{
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+} */
 /*\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\*/
 /*//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
 
@@ -42,11 +57,21 @@ nav a:hover{
 main section{
     text-align: center;
 }
+main section img{
+    box-sizing: border-box;
+}
 body{
     background-color: #127475;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 22px;
+    padding: 0;
+    margin: 0;
 }
 .home_title{
     color: wheat;
+    font-family: "Ubuntu", "PT Sans", monospace;
+    font-size: 2em;
+    margin-top: 10px;
 }
 h4{
     color: wheat;    
@@ -55,11 +80,15 @@ h4{
     background-color: #512a2a;
     color: #127475;
     text-decoration: none;
+    font-size: 25px;
+    padding: 15px 30px;
+    margin-top: 50px;
 }
 .book:hover, .join:hover{
     background-color: #512a2a;
     color: #f5dfbb;
     text-decoration: none;
+    border-radius: 5px;
 }
 #background{
     height: 725px;
@@ -67,17 +96,27 @@ h4{
 }
 .msg{
     background-color:#127475;
+    line-height: 1.5em;
+    padding: 35px;
 }
 .msg h2{
     color: wheat;
+    font-family: "Ubuntu", "PT Sans", monospace;
+    margin: 0;
 }
+/*  --heading-font: "Ubuntu";
+  --paragraph-font: "PT Sans";*/
 .msg p{
     color: black;
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 /* Footer Tab*/
 footer{
     background-color: #f2542dbd;
     color: wheat;
+    padding: 25px 30px;
+    margin-top: 200px;
 }
 footer a{
     color: wheat;
@@ -90,7 +129,9 @@ footer p a:hover{
 footer p{
     font-size: 1.2em;
 }
-
+footer .social img{
+    padding-top: 15px;
+}
 
 /*        <td class="primary">#512a2a</td> muddy brown
         <td class="secondary">#f2542d</td> burnt orange

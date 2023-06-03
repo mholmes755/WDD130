@@ -1,0 +1,44 @@
+
+
+#main-div{
+display: grid;
+grid-template-columns: 1fr 1fr;
+height: 400px;
+background-color: aqua;
+}
+
+#grey-box{
+    height: 90%;
+    width: 90%;
+    background-color: grey;
+    margin: 10px auto;
+    grid-column: 2/3;
+}
+
+#cherries-img{
+    height: 90%;
+    width: 90%;
+    background-color: steelblue;
+    margin: 10px auto;
+    grid-column: 1/2
+}
+
+img{
+    height: 200px;
+    width: 250px;
+    margin: 0px auto;
+    z-index: 0;
+}
+
+h1{
+    text-align: center;
+    grid-column: 1/2;
+    grid-row: 1/2;
+    z-index: 1;
+}
+
+h3{
+    color: darkred;
+    position: relative;
+    text-align: center;
+}

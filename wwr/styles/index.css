@@ -4,7 +4,7 @@
     margin: 0 auto;  /*The 0 sets the top and bottom margin and "auto" sets the left and right margins */
 }
 header{
-    background-color: #f5dfbb8c;
+    background-color: #f5dfbb77;
     display: grid;
     grid-template-columns: 150px auto;
 }
@@ -13,7 +13,7 @@ header{
 nav{
     display: flex;
     justify-content: space-around;
-    
+    z-index: 1;
 }
 nav a{
     text-align: center;
@@ -80,7 +80,9 @@ nav a:hover{
     transform: scale(1.1);
 }
 #hero_img{
-    width: 100%;
+    width: 5fr;
+    opacity: .6;
+    z-index: -1;
 }
 
 /*\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\*/

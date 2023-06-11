@@ -1,0 +1,56 @@
+What 3 topics will my site cover?
+
+I will need a homepage and 2 connected pages
+
+Site Plan
+    600 words #DONE
+    1 idea per paragraph
+        Paragraph headers
+
+
+
+Home Page
+    Text
+        Welcome to my portfolio! This website will showcase all of the different projects that I have made over the course of my
+        studies and career in the technical world. Right now the only pages here are the "Home" page, the "Python Programs" page,
+        and the "HTML Programs" page. This is because these are the only languages with which I have any measurable experience.
+        As I learn more languages, develop more skills, and create more programs, more pages will be added and this website will
+        expand and grow. It is a living site! As I am still a student attending college this site is still relatively small.
+        However, as I progress through my education I plan to add at least 2-3 projects to this site every year! I would love to
+        have potential employers see my website so that they could see the skills and experience that I have. It could also be a 
+        potential tool for others as they seek to learn more about coding and the various languages they can use. 
+
+
+        My name is Michael Holmes. I grew up in North Carolina, but after my family moved to Virginia I began to explore
+        the world of coding more. I took classes in middle school where I learned how to program small machines called
+        "bo-bots" to follow simple paths and directions of travel. I thought that this was really fun and it was the
+        beginning of my interest in the tech world. I would go on to take classes that helped me understand the logic
+        built into different computer applications and different functions associated with those applications. Towards the
+        end of my time in high school I would take  an engineering class where I worked with binary and some python.
+        Unfortunately I no longer have access to those programs! Otherwise they'd be diaplayed on this site! I also took
+        a class called "Advanced Technologies where I was exposed to html and css for the first time. Again I no
+        longer have access to those programs because they became the property of the school. I was even able to take a 
+        brief Python seminar. All of these classes involved some sort of coding that increased my interest in the field. After
+        serving a two year mission for my church I returned to school and the programming world. And I intend to stay!
+    2 images
+
+Python Programs
+    Text
+        The purpose of this page will be to store the various python programs that I have ever written. Whether for school or for
+        work. I will also provide brief descrptions of what each program does and why I created it. The importance of programs is
+        not only their function, but also the principles that are used in them. If you do not learn from the programs you create
+        then there is almost no reason for their creation. Therefore, in addition to displaying the programs I have created, I will
+        also be displaying the purpose for their creation, and the best principles and fundemental skills that I used in the process
+        of making them! I hope that adding these principles will not only show what I really know, but also help others to understand
+        Pytohn should they find my page.
+    2 images
+
+HTML/CSS Programs
+    Text
+        The purpose of this page is very similar to the "Python Programs" page. The only difference is the languages that will be displayed.
+        I still will display the programs that I created. I will still explain the reason they were created, whether for work or for school,
+        or any other reason. And I will continue to explain the different principles that I used to show exactly what I know when using this
+        language. Because this page will be showcasing both HTML as well as CSS I will be displaying them side by side with similar breaksdowns.
+        They will have the same reason for being created, but I will speak of each independantly when explaining the different principles used. 
+
+    2 images

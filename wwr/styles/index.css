@@ -80,7 +80,7 @@ nav a:hover{
     transform: scale(1.1);
 }
 #hero_img{
-    width: 5fr;
+    width: 100%;
     opacity: .6;
     z-index: -1;
 }

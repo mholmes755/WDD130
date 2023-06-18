@@ -29,7 +29,7 @@ nav a:hover{
 /*\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\*/
 /*//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
 
-/*Images  */
+/* MAIN CSS FOR HOME PAGE */
 .logo-link{
     width: 80px;
     padding-top: 5px;
@@ -84,9 +84,6 @@ nav a:hover{
     opacity: .6;
     z-index: -1;
 }
-
-/*\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\*/
-/*//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
 
 #hero{
     display: grid;
@@ -204,6 +201,87 @@ footer p{
 footer .social img{
     padding-top: 15px;
 }
+
+
+
+
+/* MAIN CONTENT FOR EXPERIENCES/PRICES PAGE */
+#testimonials{
+    display: grid;
+    grid-template-columns: 20% auto;
+    color: black;
+    margin: 25px 0px;
+    margin-left: 25px;
+    width: 100%;
+}
+#testimonials h1{
+    color: wheat;
+    text-align: center;
+    margin: 200px 200px 200px 90px ;
+    font-size: 75px;
+}
+#rates h1{
+    color: wheat;
+}
+#sub-hero{
+    justify-self: right;
+    margin: 20px 0px;
+    width: 35em;
+    height: 20em;
+}
+.testimonial-img{
+    width: 8em;
+    height: 8em;
+    margin: 10px 0px;
+    border:solid wheat 6px;
+    border-radius: 35%;
+}
+#customer1{
+    border-top: solid wheat 5px;
+    grid-column: 2/3;
+}
+
+#customer2{
+    border-top: solid wheat 5px;
+    grid-column: 2/3;
+}
+#customer3{
+    border-top: solid wheat 5px;
+    grid-column: 2/3;
+}
+
+
+#rates{
+    display: grid;
+    grid-template-columns: 10% auto;
+}
+.button{
+    background-color: #512a2a;
+    color: #127475;
+    font-size: 18px;
+    text-align: center;
+    padding-top: 20px;
+    grid-column: 1/2;
+    width: 8em;
+    height: 3em;
+    border-radius: 5%;
+    transition: transform .5s;
+    box-shadow: 2px 2px 2px #6f7364;
+}
+.button :hover{
+    color: wheat;
+    transform: scale(1.1);
+}
+
+
+
+#rates p{
+    margin-top: 0px;
+    color: black;
+    border-top: solid wheat 5px;
+}
+
+
 
 @media screen and (max-width: 900px) {
     #hero, .home-grid {

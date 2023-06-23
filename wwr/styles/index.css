@@ -282,7 +282,7 @@ footer .social img{
 }
 
 
-/* MAIN CODE FOR CONTACT US PAGE */
+/* ///////MAIN CODE FOR CONTACT US PAGE\\\\\\\\\\ */
 form{
 /* Center the form on the page */
     margin: 0 auto;
@@ -329,7 +329,7 @@ textarea {
   height: 5em;
 }
 
-.button {
+.contact-us-button {
   /* Align buttons with the text fields */
   padding-left: 90px; /* same size as the label elements */
 }
@@ -354,7 +354,7 @@ textarea {
   height: 5em;
 }
 
-.button {
+.contact-us-button {
   /* Align buttons with the text fields */
   padding-left: 90px; /* same size as the label elements */
 }
@@ -378,7 +378,7 @@ textarea {
   height: 5em;
 }
 
-.button {
+.contact-us-button {
   /* Align buttons with the text fields */
   padding-left: 90px; /* same size as the label elements */
 }

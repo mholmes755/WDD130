@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Monomaniac+One&family=Roboto+Condensed&display=swap');
+
+#content{
+    max-width: 1600px;
+    margin: 0 auto;
+}
+.not-main-content{
+    max-width: 1600px;
+    margin: 0 auto;
+    padding-top: 60px;   
+}
+
+/* ////////MAIN CODE FOR HEADER\\\\\\\\\*/
+header{
+    background-color: #907114;
+    display: grid;
+    grid-template-columns: auto 150px;
+}
+.not-main{
+    background-color: #907114;
+    display: grid;
+    grid-template-columns: auto 150px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;  
+}
+
+nav{/* I want the nav to move with the screen when it scrolls. Find out how to do this */
+    font-size: 35px;
+    display: flex;
+    justify-content: space-around;
+
+}
+nav a{
+    text-align: center;
+    text-decoration: none;
+    color: #381D2A;
+    padding: 5px;
+}
+nav a:hover{
+    background-color: #381D2A;
+    color: whitesmoke;
+    text-decoration: none;
+}
+.logo{
+    width: 150px;
+    margin: 0;
+}
+
+/* ////////MAIN CODE FOR BODY\\\\\\\\\*/
+body{
+    background-color: #396E94;
+    font-family: "Monomaniac One", "Roboto Condensed", Times, serif;
+}
+
+/* ////////PAGE 2 CODE CODE FOR BODY\\\\\\\\\*/
+
+
+/* ////////PAGE 3 CODE FOR BODY\\\\\\\\\*/
+
+
+
+/* ////////MAIN CODE FOR FOOTER\\\\\\\\\*/
+footer{
+    background-color: #907114;
+    color: #512a2a;
+    padding: 25px 35px;
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer p{
+    font-size: 2.2em;
+    text-decoration: none;
+}
+footer a{
+    text-decoration: none;
+    color: #512a2a;
+}
+footer a:hover{
+    color: blue;
+    text-decoration: underline;
+}
+.socail{
+    margin: 0;
+    /* padding: 0; */
+    padding-top: 15px;
+}
+.social:hover{
+    opacity: .6;
+    transform: scale(1.2);
+}
+
+/* 907114 = gold
+AABD8C = pale green
+381D2A = dark purple
+396E94 = blue */

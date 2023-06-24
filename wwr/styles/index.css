@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans&family=Ubuntu:wght@700&display=swap');
 #content{
     max-width: 1600px;
-    margin: 0 auto;  /*The 0 sets the top and bottom margin and "auto" sets the left and right margins */
+    margin: 0 auto; 
 }
 header{
     background-color: #f5dfbb77;

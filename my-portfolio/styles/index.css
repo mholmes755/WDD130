@@ -4,17 +4,22 @@
     max-width: 1600px;
     margin: 0 auto;
 }
-.not-main-content{
+/* .not-main-content{
     max-width: 1600px;
     margin: 0 auto;
     padding-top: 60px;   
-}
+} */
 
 /* ////////MAIN CODE FOR HEADER\\\\\\\\\*/
 header{
     background-color: #907114;
     display: grid;
     grid-template-columns: auto 150px;
+    /* position: fixed; */
+    margin-top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
 }
 .not-main{
     background-color: #907114;
@@ -24,10 +29,10 @@ header{
     top: 0;
     left: 0;
     width: 100%;
-    z-index: 999;  
+    z-index: 999;
 }
 
-nav{/* I want the nav to move with the screen when it scrolls. Find out how to do this */
+nav{
     font-size: 35px;
     display: flex;
     justify-content: space-around;
@@ -53,14 +58,42 @@ nav a:hover{
 body{
     background-color: #396E94;
     font-family: "Monomaniac One", "Roboto Condensed", Times, serif;
+    margin: 0;
+}
+main{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+/* ////////PAGE 2/3  CODE FOR BODY\\\\\\\\\*/
+.my-work{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    border: solid 1em #381D2A;
+    margin-bottom: 0;
+}
+.my-work a{
+    text-align: center;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.my-work p{
+    text-align: center;
+    margin: 0;
+    font-size: 30px;
+    /* padding-left: 10px; */
 }
 
-/* ////////PAGE 2 CODE CODE FOR BODY\\\\\\\\\*/
-
-
-/* ////////PAGE 3 CODE FOR BODY\\\\\\\\\*/
-
-
+.page-img{
+    width: 100px;
+    margin-top: 75px;
+    padding-left: 5px;
+    float: right;
+}
+.page-summary{
+    margin-top: 95px;
+    font-size: 30px;
+}
 
 /* ////////MAIN CODE FOR FOOTER\\\\\\\\\*/
 footer{
@@ -85,14 +118,14 @@ footer a:hover{
     color: blue;
     text-decoration: underline;
 }
-.socail{
+.social{
     margin: 0;
-    /* padding: 0; */
     padding-top: 15px;
+    opacity: .6;
 }
 .social:hover{
-    opacity: .6;
     transform: scale(1.2);
+    opacity: 1;
 }
 
 /* 907114 = gold

@@ -4,11 +4,6 @@
     max-width: 1600px;
     margin: 0 auto;
 }
-/* .not-main-content{
-    max-width: 1600px;
-    margin: 0 auto;
-    padding-top: 60px;   
-} */
 
 /* ////////MAIN CODE FOR HEADER\\\\\\\\\*/
 header{
@@ -95,12 +90,26 @@ main{
     font-size: 30px;
 }
 
+#main-page-summary{
+    display: grid;
+    grid-template-columns: auto 400px;
+    gap: 20px;
+    padding-right: 30px;
+    border: #396E94 solid 10px;
+}
+#about-me-text{
+    display: grid;
+    grid-template-columns: auto 400px;
+    gap: 20px;
+    padding-right: 10px;
+}
+
 /* ////////MAIN CODE FOR FOOTER\\\\\\\\\*/
 footer{
     background-color: #907114;
     color: #512a2a;
     padding: 25px 35px;
-    margin-top: 200px;
+    margin-top: 250px;
     display: flex;
     justify-content: space-around;
     align-items: center;

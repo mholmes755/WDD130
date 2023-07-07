@@ -1,0 +1,34 @@
+.parallax1 {
+  /* The image used */
+  background-image: url("baby-smile.jpg");
+
+  /* Set a specific height */
+  min-height: 500px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#baby-smile{
+    width: 100%;
+}
+#breaker{
+    height:200px;
+    background-color:rgba(13, 63, 29, 0.694);
+    font-size:36px;
+}
+.parallax2 {
+    /* The image used */
+    background-image: url("baby-point.jpg");
+  
+    /* Set a specific height */
+    min-height: 500px; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }

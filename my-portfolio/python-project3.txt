@@ -1,0 +1,36 @@
+print()
+print("Please enter the following information:")
+
+# Ask for basic information
+first_name = input("\nFirst name: ")
+last_name = input("Last name: ")
+email = input("Email address: ")
+phone_number = input("Phone Number: ")
+job_title = input("Job Title: ")
+id_number = input("ID number: ")
+output = "{1}, {0}".format(first_name.capitalize(), last_name.upper())
+
+# Ask for additional information
+hairinput = input("Hair color: ")
+eyesinput = input("Eye color: ")
+monthinput = input("Starting month: ")
+traininginput = input("Completed additional training? ")
+hair = "Hair: "
+eyes = "Eyes: "
+month = "Month: "
+training = "Training: "
+
+# ID Badge
+print("\nThe ID Card is:")
+print("----------------------------------------")
+print(output)
+print(job_title)
+print("ID: " + id_number)
+print()
+print(email.lower())
+print(phone_number)
+print("")
+print("%s"%(hair) + "%-10s"%(hairinput) + "%s"%(eyes) + "%s"%eyesinput)
+print("%-s"%(month) + "%-9s"%(monthinput) + "%s"%(training) + "%s"%traininginput)
+
+print("----------------------------------------")

@@ -104,6 +104,10 @@ main{
     padding-right: 10px;
 }
 
+.python-img{
+    width: 250px;
+}
+
 /* ////////MAIN CODE FOR FOOTER\\\\\\\\\*/
 footer{
     background-color: #907114;

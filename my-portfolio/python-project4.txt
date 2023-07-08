@@ -1,0 +1,65 @@
+# price of meals
+print()
+
+
+print('Hello!')
+childcost = float(input('What is the price of a childrens meal? $'))
+adultcost = float(input('What is the price of an adult meal? $'))
+taxrate = float(input('What is the sales tax rate? '))
+soda = float(input('What is the price of a soda? $'))
+lemonade = float(input('What is the price of a lemonade? $'))
+water = float(input('What is the price of water? $'))
+drink = (input('Would you all like sodas, lemonades, or some waters? '))
+drink_cost = 0
+subtotal = 0
+print()
+
+# Number of people and costs
+childnumb = int(input('How many children are there? '))
+adultnumb = int(input('How many adults are there? '))
+
+# DRINKS
+if drink.capitalize() == 'Soda' or drink.capitalize() == 'Sodas':
+    drink_cost = soda * (adultnumb + childnumb)
+    subtotal = (childnumb * childcost) + (adultnumb * adultcost) + drink_cost
+elif drink.capitalize() == 'Lemonade' or drink.capitalize() == 'Lemonades':
+    drink_cost = lemonade * (adultnumb + childnumb)
+    subtotal = (childnumb * childcost) + (adultnumb * adultcost) + drink_cost    
+elif drink.capitalize() == 'Water' or drink.capitalize() == 'Waters':
+    drink_cost = water * (adultnumb + childnumb)
+    subtotal = (childnumb * childcost) + (adultnumb * adultcost) + drink_cost
+
+
+salestax = subtotal*(taxrate/100)
+total = subtotal + salestax
+print()
+
+# sub total, tales tax, and total costs
+print('The drink cost is: $' + str(drink_cost) + '. Which brings your total to ' + '$%.2f'%(subtotal) + ' before tax.')
+answer = input('Would you like to switch your drinks? ')
+if answer.capitalize() == 'Yes':
+   new_drink = input('Would you like sodas, lemonades, or some waters? ')
+   if new_drink.capitalize() == 'Soda' or new_drink.capitalize() == 'Sodas':
+    drink_cost = soda * (adultnumb + childnumb)
+    subtotal = (childnumb * childcost) + (adultnumb * adultcost) + drink_cost
+   elif new_drink.capitalize() == 'Lemonade' or new_drink.capitalize() == 'Lemonades':
+    drink_cost = lemonade * (adultnumb + childnumb)
+    subtotal = (childnumb * childcost) + (adultnumb * adultcost) + drink_cost    
+   elif new_drink.capitalize() == 'Water' or new_drink.capitalize() == 'Waters':
+    drink_cost = water * (adultnumb + childnumb)
+    subtotal = (childnumb * childcost) + (adultnumb * adultcost) + drink_cost
+
+print()
+print('Alright, here are your totals. ')
+print()
+print('Sub Total: ' + '$%.2f'%(subtotal))
+print('Sales Tax: ' + '$%.2f'%(salestax))
+print('Total cost: ' + '$%.2f'%total)
+print()
+
+print('')
+
+#  payment amount and change
+payment = float(input('What is the payment amount? '))
+change = payment-total
+print('Your change is ' + '$%.2f'%change)

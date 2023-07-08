@@ -1,0 +1,211 @@
+#Adventure Game
+print()
+
+#Game Situation
+print(
+    "You are the pilot of a private jet owned by a family that hired you to take them on vacation for the summer."
+    "\nYou have just crashed landed in the Pacific ocean somewhere between Hawaii and the Phillipines."
+    "\nYou're still in the cockpit of the airplane and you can see the windows cracking."
+    "\nYou have 2 options for escape. You can either:\n "
+    "\nBREAK OPEN THE GLASS AND TRY TO SWIM OUT \nOR"
+    "\nYOU CAN OPEN THE CABIN DOOR AND CHECK ON THE FAMILY YOU'VE BEEN FLYING."
+)
+print()
+# FIRST CHOICE SCENARIO 2
+plane_answer = input("What do you do? Option 1 or Option 2? ")
+
+if plane_answer.capitalize() == "Option 1" or plane_answer.capitalize() == "Option1":
+    print()
+    print("You grab the emergency axe located in a compartment behind your chair.")
+    print("You swing once at the windshield. Twice, three times, then it breaks")
+    print("and water comes streaming into the cockpit filling fast and slamming you into the door of the cabin.")
+    print("Broken bits of coral and small fish flood in. You feel something hit you in the head, then everything goes black. ")
+    print()
+    print()
+# Scenario 1 text break
+
+    life = input("'Am I alive?' ")
+    print()
+    if life.capitalize() == "Yes": 
+        print(
+            "You wake up to the sounds of a beach. The water coming in and out as if the ocean is breathing."
+        "\nThe wind quietly whipping in your ears. You can feel water lapping at your face. It tastes like salt and blood. \n'Blood?' "
+        "\nMemories from the crash set in and you open your eyes. It takes a few minutes for your eyes to adjust to the blinding sun,"
+        "\nbut once they do you stand up to take a look around to see where you're at."
+        "\nAhead of you are sandy dunes that obscure your view of anything other than sand and tall beach grass."
+        "\nWhen you look to your left and right it's much of the same story. Although to your right far in the distance there looks to be a pier."
+        "\nBehind you is the open sea. As unforgiving as it is blue. 'Nothing' out there' you think ruefully. "
+        "\nYour head feels like a rhino just stepped on it so tentativey you touch it. As you pull your hand away it's redder than a rose."
+        "\n'So that's why I was tasting blood' you thought."
+        "\nYou have a few options. You can either FOLLOW THE BEACH TO THE LEFT TILL YOU FIND SOMETHING, "
+        "\nYou can WALK INLAND TO THE TOP OF THE SAND DUNES TO SEE MORE OF THIS PLACE, "
+        "\nOr you can CHECK OUT THE PIER TO THE RIGHT. "
+        )
+    elif life.capitalize() == "No":
+        print("'I certainly don't feel very alive.")
+        print(
+            "You wake up to the sounds of a beach. The water coming in and out as if the ocean is breathing."
+        "\nThe wind quietly whipping in your ears. You can feel water lapping at your face. It tastes like salt and blood. \n'Blood?' "
+        "\nMemories from the crash set in and you open your eyes. It takes a few minutes for your eyes to adjust to the blinding sun,"
+        "\nbut once they do you stand up to take a look around to see where you're at."
+        "\nAhead of you are sandy dunes that obscure your view of anything other than sand and tall beach grass."
+        "\nWhen you look to your left and right it's much of the same story. Although to your right far in the distance there looks to be a pier."
+        "\nBehind you is the open sea. As unforgiving as it is blue. 'Nothing' out there' you think ruefully. "
+        "\nYour head feels like a rhino just stepped on it so tentativey you touch it. As yo pull your hand away it's redder than a rose."
+        "\n'So that's why I was tasting blood' you thought."
+        "\nYou have a few options. You can either FOLLOW THE BEACH TO THE LEFT TILL YOU FIND SOMETHING, "
+        "\nYou can WALK INLAND TO THE TOP OF THE SAND DUNES TO SEE MORE OF THIS PLACE, "
+        "\nOr you can CHECK OUT THE PIER TO THE RIGHT. "
+        )
+
+    beach_answer = input("Where will you go? Left, right, or inland? ")
+    if beach_answer.capitalize() == "Right":
+        print()
+        print(
+            "'The pier had to be built by somebody' you think so you start walking towards it."
+            "\nWhen you get there you can tell that nobody has been here in a long time"
+            "\nThe boards are old and creak dangerously under your shoes,"
+            "\nAnd the irregular splotches of color show that at one point it had been painted white"
+            "\nAt the beginning of the pier there is a small trail that looks well worn, but there is also a shed at the start of the pier. "
+            "\nWhich do you pick? The TRAIL or the SHED? "
+        )
+        pier_answer = input("Which do you choose? SHED or TRAIL?")
+        if pier_answer.capitalize() == "Shed":
+            print(
+                "You decide to look in the shed to see if you can find anything useful. "
+                "Once you open the door, you are blown away by what you see..."
+                "\n"
+                "\n"
+               "\nPurchase full game to finish the story."     
+            )
+        elif pier_answer.capitalize() == "Trail":
+            print()
+            print(
+                "The path is so worn in it's impossible that something isn't making it."
+                "\nAfter following the path inland for a ways you see more specific tracks in the ground! "
+                "\nAnd they're human footprints! You aren't alone!"
+                "\n"
+                "\n"
+                "\nPurchase full game to finish the story."
+            )
+    elif beach_answer.capitalize() == "Left":
+        print()
+        print(
+            "You turn left and walk along the beach for what seems like eternity and there's no change."
+            "\nThe beach doesn't turn, the scenery doesn't change and you begin to lose hope that this was the way to go."
+            "\nEventually in the distance you can see a row of cliffs rising from the ocean to replace the sandy beach."
+            "\nThe surf carving out caves a their base. You go closer and investigate. The caves are spacious enough, but there's no floor. "
+            "\nIt's a watery cave, but there's a ledge in the back of it with something shiny on it. "
+            "\nThe rocks you're standing on are pretty slick from the ocean spray. 'I better be careful' you think."
+        )
+        cave = input("Do you investigate? YES or NO")
+        if cave.capitalize() == "Yes":
+            print(
+                "As you take a step to investigate the caves you slip on the rocks!"
+                "\nYou get really scraped up as you fall into the sea below."
+                "\nYou're bleeding bad and caught in the mercy of the foamy brime."
+                "\nAs you try to get a handhold on the slick rock the water receeds and pulls you with it."
+                "\nThe ocean has complete control over you and you're helpless to escape..."
+                )
+            print("Purchase the full game to continue the story")
+        else: 
+            print(
+             "As you take a step to investigate the caves you slip on the rocks!"
+             "\nYou get really scraped up as you fall into the sea below."
+             "\nYou're bleeding bad and caught in the mercy of the foamy brime."
+             "\nAs you try to get a handhold on the slick rock the water receeds and pulls you with it."
+             "\nThe ocean has complete control over you and you're helpless to escape...")
+
+            print("Purchase the full game to continue the story")
+    elif beach_answer.capitalize() == "Inland":
+        print() 
+        print(
+            "You start to trek through the sand and up the beach. As you get closer the grade increases"
+            "\nAnd soon it feels as though you're climbing up a small sand mountain. When you get to the top it takes your breath away"
+            "\nBefore you stretches a long low valley where the sand slowly gave way to green grass and tropical vegitation"
+            "\nBright birds circled in the air above the trees and moisture filled the air. 'Where AM I?'"
+            "\nYou walk down the hill where you're standing and you ponder about the strangeness of the place where you've shipwrecked"
+            "\nAs you enter the jungle all sorts of sounds and smells greet you and you want to explore them all!"
+            "\nOne sound in particular sounds very strange and you want to see what it is, but it's also a knew place"
+            "\nAnd you don't want to do something that'll hurt your chances of survival."
+        )
+        jungle_answer = input("Do you INVESTIGATE or so you LEAVE IT?")
+        if jungle_answer.capitalize() == "Investigate":
+            print()
+            print(
+            "You push through the undergrowth and emerge on the banks of a beautiful lake!"
+            "\nOn one side of the lake there's a small waterfall gently cascading down greating a soothing sound."
+            "\nYou hear a splashing sound coming from the lake and you look just in time to see a flash of color"
+            "\nfrom what must've been a MASSIVE fish. But you swore you heard a small laugh as it went down. "
+            "\n"
+            "\nPurchase the full game to continue the story."
+            )
+        else:
+            print()
+            print(
+            "'Best if I leave strange sounds alone for now' you think as you continue to go deeper into the jungle."
+            "\n"
+            "\nPurchase the full game to continue the story"
+            )
+# FIRST CHOISE SCENARIO 2
+elif plane_answer.capitalize() == "Option 2" or plane_answer.capitalize() == "Option2":
+    print()
+    print()
+    print(
+        "Realizing that the family you've been piloting may have been hurt in the crash you open the door behind you."
+        "\nAs you open the door you take stock of the situation. The parents, Jake and Lainee Stockmond, are trying to keep their children calm."
+        "\nBut they're both little and are crying out of both fear and pain. One even had a cut on his head from hitting it on something."
+        "\n'Their only kids' you think miserably. But you stick to your training. Under the nearest few seats you grab 4 life vests for the family"
+        "\nthen don one yourself. Once everyone has theirs on you open the emergency exit where one of the life rafts had already auto deployed."
+        "\nYou usher the family out and instruct everyone to paddle away from the wreckage so its weight didn't drag down your raft. "
+        "\nOnce you're a safe distance away you finally let the family stop to rest. But you know you'll have to move again soon."
+        "\nAs you look back at the plane it had already filled with water and was sinking in the water. Soon it was gone entirely."
+    )
+    print()
+    print(
+        "After a few minutes the children had settled down a little and were quietly whimpering. Once they were okay Jake turns to me and says"
+        "\n'What happened to the plane?' His tone was definitely not friendly."
+        "\n'A bird flew into the engine' you say with some heat."
+        "\n'It got caught in the small rotors and we lost our left engine. It's hard to fly with only one.'"
+        "\nYou're pretty angry and you REALLY want to hit him. What do you choose?"
+        "\nYou can either HIT him, or you can LET IT DROP."
+    )
+    answer12 = input("What do you do? ")
+    if answer12.capitalize() == "Hit" or answer12.capitalize() == "Hit him": 
+        print()
+        print(
+            "You're done with Jake and so you hit him square in the jaw as hard as you can."
+            "\nHe drops like a sac of potatoes. His wife and kids go crazy and soon there's a small mutiny on your little raft."
+
+        )
+    else:
+        print()
+        print(
+            "You decide it's best to let it drop. But Jake isn't about to do the same."
+            "\nYou turn your back to him and then WHAM! You're reeeling forward into the water"
+            "\nYou come up sputtering and see that Jake is standing over you in the raft pointing angrily at you"
+            "\nBy crashing our plane you've doomed us to die. It's only fair I do the same thing to you"
+            "\nAnd they start to paddle away"
+        )
+    answer13 = input("You can either PADDLE AFTER THEM or LET THEM GET AWAY.")
+    print("Which will you choose? Option 1 or Option 2?")
+    if answer13.capitalize() == "Option1" or answer13.capitalize() == "Option 1":
+        print()
+        print(
+            "You watch them paddle away in silence. Maybe they're right. I deserve this. "
+            "\n"
+            "Purchase the full game to continue the story"
+        )
+    else: 
+        print()
+        print(
+            "You angrily try to paddle after them, but each time you get close"
+            "\nJake slaps your hands away. Once he even kicked  you in the face!"
+            "\nYou can see that there's no point of really following them so you stop after a while"
+            "\nYou feel something brush against your leg and see a big dorsal fin cross your vision"
+            "\nAnd it's VERY close..."
+            "\n"
+            "Purchase the full game to continue the story"
+        )
+else:
+    print("You're not old enough to know this story. Come back in a few years. ")

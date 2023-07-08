@@ -1,0 +1,83 @@
+"""
+LIFE EXPECTANCIES
+"""
+
+
+# VARIABLES FOR HIGHEST AND LOWEST VALUES IN CSV FILE
+highest_life = -1
+lowest_life = 10000
+max_country = ""
+min_country = ""
+# VARIABLES FOR HIGHEST AND LOWEST VARIABLES IN YEAR OF CHOICE
+highestChoice_life = -1
+lowestChoice_life = 1000
+maxChoice_country = ""
+minChoice_country = ""
+when = 0
+
+i = 0 # SETS VARIABLE TO SKIP FIRST LINE OF DATA SHEET
+
+# VARIABLES FOR AVERAGE LIFE EXPECTANCY IN YEAR SELECT
+average = 0
+life_counter = 0
+year_counter = 0
+
+# VARIABLES FOR COUNTRY PROJECTED LIFE EXPECTANCY
+life_expectancies = []
+years = []
+
+
+year_choice = int(input("Which year would you like to learn about? "))
+
+# find slope of country select to make it my own for full credit
+
+with open("life-expectancy.csv") as data_sheet:
+    for line in data_sheet:
+        i +=1
+        parts = line.split(",")
+        if i > 1: # Skips the first line of the csv file
+            country = parts[0].strip()
+            code = parts[1].strip()
+            year = int(parts[2].strip())  
+            life_expectancy = float(parts[3].strip())
+# Finds lowest and highest overall life expectancies
+            if life_expectancy < lowest_life:
+                lowest_life = life_expectancy
+                min_country = country
+                when = year
+            elif life_expectancy > highest_life:
+                highest_life = life_expectancy
+                max_country = country
+                when = year
+# Find info for specific year entered
+            if year_choice == year:
+                life_counter = life_counter + life_expectancy # counts life expectancies in choice year
+                year_counter = year_counter + 1
+
+                if life_expectancy < lowestChoice_life:
+                    lowestChoice_life = life_expectancy
+                    minChoice_country = country
+
+                elif life_expectancy > highestChoice_life:
+                    highestChoice_life = life_expectancy
+                    maxChoice_country = country
+
+
+
+average = life_counter/year_counter
+print(
+    f"{year_choice}"
+    f"\nThe highest life expectancy was{highestChoice_life: .2f} in {maxChoice_country}"
+    f"\nThe lowest life expectancy was{lowestChoice_life: .2f} in {minChoice_country}"
+    #   f"\nThe average life expecyancy is {year_counter}"
+    f"\nThe average life expectancy was{average: .2f} yrs."
+      )
+print(
+    f"\nThe country with the lowest overall life expectancy is {min_country}, at {lowest_life: .2f} years."
+    f"\nThe country with the highest overall life expectancy is {max_country}, at {highest_life: .2f} years."
+      "\n")
+
+
+
+    
+    

@@ -1,0 +1,67 @@
+HTML
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="component.css">
+</head>
+<body>
+
+<p><strong>Scroll Up and Down this page to see the parallax scrolling effect</strong></p>
+
+<div class="parallax1"></div>
+
+<div id="breaker">
+It really depends on the kind of person that you are. For some people,
+it's breakfast. For others it's school. Maybe it's money, sports, or
+even something else. But as for me, I get out of bed for you!
+
+</div>
+
+<div class="parallax2"></div>
+
+</body>
+</html>
+
+
+
+CSS
+
+
+.parallax1 {
+  /* The image used */
+  background-image: url("baby-smile.jpg");
+
+  /* Set a specific height */
+  min-height: 500px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#baby-smile{
+    width: 100%;
+}
+#breaker{
+    height:250px;
+    background-color:rgba(13, 63, 29, 0.694);
+    font-size:36px;
+}
+.parallax2 {
+    /* The image used */
+    background-image: url("baby-point.jpg");
+  
+    /* Set a specific height */
+    min-height: 500px; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+

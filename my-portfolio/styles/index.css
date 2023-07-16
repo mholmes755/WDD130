@@ -95,13 +95,14 @@ main{
     grid-template-columns: auto 400px;
     gap: 20px;
     padding-right: 30px;
-    border: #396E94 solid 10px;
+    color: whitesmoke;
 }
 #about-me-text{
     display: grid;
     grid-template-columns: auto 400px;
     gap: 20px;
     padding-right: 10px;
+    color: whitesmoke;
 }
 
 .python-img{

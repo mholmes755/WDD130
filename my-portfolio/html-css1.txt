@@ -1,0 +1,110 @@
+HTML
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>BYUI</title>
+    <link rel="stylesheet" href="html_practice.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a id="active" href="html_practice.html">Home</a>
+            <a class="visited" href="https://www.churchofjesuschrist.org">Church of Jesus Christ</a>
+            <a class="visited" href="https://www.churchofjesuschrist.org/temples">Temples</a>
+            <a class="visited" href="https://www.churchofjesuschrist.org/study/scriptures">Scriptures</a>
+        </nav>
+    </header>
+    <main>
+        <h1>Brigham Young University Idaho</h1>
+        <img src="https://www.byui.edu/images/service-sites/map-banner.jpg">
+        <p class="main-para">BYU-Idaho is a comfortable place to learn and grow
+            as a disciple of Jesus Christ because students, faculty, and employees
+            share a commitment to live the gospel.
+        </p>
+    </main>
+    <footer>
+        <p>My Web Page 20XX &copy</p>
+        <img src="https://placeimg.com/25/25/animals" alt="placeholder animal image"/>
+    </footer>
+</body>
+</html>
+
+CSS
+
+.main-para{
+    font-size: 1.5em;
+    line-height: 1.5em;
+}
+
+a{
+    font-size: 1.5em;
+    color: white;
+    /* padding:1em; */
+    padding: 25px;
+}
+
+a:hover{
+    background-color: white;
+    color: steelblue;
+}
+
+#active{
+    background-color: steelblue;
+    color: white;
+}
+
+#visited{
+    background-color: steelblue;
+    color: purple
+}
+
+nav{
+    background-color: steelblue;
+    width: 100%;
+    color: white;
+    padding: 25px;
+    text-align: center;
+}
+
+img{
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+    border: 4px sold steelblue;
+}
+
+p{
+    width: 80%
+}
+
+body{
+    text-align: center;
+    margin: 0px;
+}
+
+h1{
+    margin: 100px, 0;
+    color: blueviolet;
+}
+
+main p{
+    width: 80%;
+    margin: 0px auto;
+    text-align: center;
+    color: blue;
+}
+
+
+footer p{
+    font-size: 20px;
+    margin: 20px auto;
+    text-align: center;
+    padding: 25px;
+}
+
+footer{
+    background-color: steelblue;
+    color: white
+}
